@@ -1,0 +1,1 @@
+# GermanWordsVerbL-R
