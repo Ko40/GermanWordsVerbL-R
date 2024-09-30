@@ -98,83 +98,83 @@
 <script>
   // 単語リスト（ドイツ語 - 日本語）
   const wordList = [
-    { german: 'lächeln', english: 'ほほえむ' },
-    { german: 'lachen', english: '笑う' },
-    { german: 'landen', english: '着陸する' },
-    { german: 'laufen', english: '走る' },
-    { german: 'leben', english: '生きる' },
-    { german: 'legen', english: '横にして置く' },
-    { german: 'lehren', english: '教える' },
-    { german: 'leihen', english: '貸す、借りる' },
-    { german: 'lernen', english: '学ぶ' },
-    { german: 'lesen', english: '読む' },
-    { german: 'lieben', english: '愛する' },
-    { german: 'liefern', english: '配達する' },
-    { german: 'liegen', english: '横にしておいてある' },
-    { german: 'loben', english: 'ほめる' },
-    { german: 'löschen', english: '消す' },
-    { german: 'lösen', english: '解決する' },
-    { german: 'lügen', english: '嘘をつく' },
-    { german: 'malen', english: '描く' },
-    { german: 'meiden', english: '避ける' },
-    { german: 'meinen', english: '思う' },
-    { german: 'messen', english: '長さなどを測る' },
-    { german: 'mieten', english: '賃借りする' },
-    { german: 'mitbringen', english: '持ってくる' },
-    { german: 'nachschlagen', english: '辞書で調べる' },
-    { german: 'nutzen', english: '利用する' },
-    { german: 'öffnen', english: '開ける' },
-    { german: 'operieren', english: '手術する' },
-    { german: 'packen', english: '荷物を詰める' },
-    { german: 'parken', english: '駐車する' },
-    { german: 'passieren', english: '起こる' },
-    { german: 'probieren', english: '試す' },
-    { german: 'prüfen', english: '試験する' },
-    { german: 'putzen', english: 'きれいにする' },
-    { german: 'raten', english: '助言する' },
-    { german: 'rauchen', english: '煙草を吸う' },
-    { german: 'rechnen', english: '計算する' },
-    { german: 'reden', english: '話す' },
-    { german: 'regnen', english: '雨が降る' },
-    { german: 'reichen', english: '足りる' },
-    { german: 'reinigen', english: 'クリーニングする' },
-    { german: 'reisen', english: '旅行する' },
-    { german: 'reparieren', english: '修理する' },
-    { german: 'reservieren', english: '予約する' },
-    { german: 'retten', english: '救う' },
-    { german: 'rufen', english: '呼ぶ' },
-    { german: 'sagen', english: '言う' },
-    { german: 'sammeln', english: '集める' },
-    { german: 'schaden', english: '害を与える' },
-    { german: 'schaffen', english: '創造する、成し遂げる' },
-    { german: 'schämen', english: '恥じる' },
-    { german: 'schauen', english: '目を向ける' },
-    { german: 'sheinen', english: '輝く、～のように見える' },
-    { german: 'schenken', english: '贈る' },
-    { german: 'schicken', english: '送る' },
-    { german: 'schlafen', english: '寝る' },
-    { german: 'schlagen', english: 'たたく' },
-    { german: 'schließen', english: '閉める' },
-    { german: 'schmecken', english: 'おいしい、味がする' },
-    { german: 'schneiden', english: '切る' },
-    { german: 'schneien', english: '雪が降る' },
-    { german: 'schreiben', english: '書く' },
-    { german: 'schweigen', english: '沈黙する' },
-    { german: 'schwimmen', english: '泳ぐ' },
-    { german: 'sehen', english: '見る' },
-    { german: 'sein', english: '～である' },
-    { german: 'senden', english: '放送する、送る' },
-    { german: 'setzen', english: '座らせる、座る' },
-    { german: 'singen', english: '歌う' },
-    { german: 'sitzen', english: '座っている' },
-    { german: 'spazieren gehen', english: '散歩する' },
-    { german: 'spielen', english: 'スポーツをする、遊ぶ、楽器を演奏する' },
-    { german: 'springen', english: '跳ぶ' },
-    { german: 'spüren', english: '感じる' },
-    { german: 'stattfinden', english: '行われる' },
-    { german: 'stauen', english: '驚く' },
-    { german: 'stecken', english: '差さっている、差し込む' },
-    { german: 'stehen', english: '立っている' },
+{ german: 'lächeln', english: 'ほほえむ/微笑む' },  // "微笑む"を追加
+{ german: 'lachen', english: '笑う' },
+{ german: 'landen', english: '着陸する' },
+{ german: 'laufen', english: '走る/歩く' },  // "歩く"も追加
+{ german: 'leben', english: '生きる/暮らす' },  // "暮らす"を追加
+{ german: 'legen', english: '横にして置く/置く' },  // "置く"を追加して簡略化
+{ german: 'lehren', english: '教える' },
+{ german: 'leihen', english: '貸す/借りる' },  // "、"を"／"に修正
+{ german: 'lernen', english: '学ぶ/勉強する' },  // "勉強する"を追加
+{ german: 'lesen', english: '読む' },
+{ german: 'lieben', english: '愛する' },
+{ german: 'liefern', english: '配達する/供給する' },  // "供給する"を追加
+{ german: 'liegen', english: '横たわっている/置いてある' },  // 修正: "横にしておいてある" → "横たわっている/置いてある"
+{ german: 'loben', english: '褒める' },  // 修正: "ほめる" → "褒める"
+{ german: 'löschen', english: '消す/消去する' },  // "消去する"を追加
+{ german: 'lösen', english: '解決する/解く' },  // "解く"を追加
+{ german: 'lügen', english: '嘘をつく' },
+{ german: 'malen', english: '描く/絵を描く' },  // "絵を描く"を追加
+{ german: 'meiden', english: '避ける' },
+{ german: 'meinen', english: '思う/意見を持つ' },  // "意見を持つ"を追加
+{ german: 'messen', english: '測る/計測する' },  // "計測する"を追加
+{ german: 'mieten', english: '賃借りする/借りる' },  // "借りる"を追加
+{ german: 'mitbringen', english: '持ってくる/連れてくる' },  // "連れてくる"を追加
+{ german: 'nachschlagen', english: '調べる/辞書で調べる' },  // "調べる"を先に
+{ german: 'nutzen', english: '利用する/使う' },  // "使う"を追加
+{ german: 'öffnen', english: '開ける' },
+{ german: 'operieren', english: '手術する' },
+{ german: 'packen', english: '荷物を詰める/梱包する' },  // "梱包する"を追加
+{ german: 'parken', english: '駐車する' },
+{ german: 'passieren', english: '起こる' },
+{ german: 'probieren', english: '試す/試みる' },  // "試みる"を追加
+{ german: 'prüfen', english: '試験する/調査する' },  // "調査する"を追加
+{ german: 'putzen', english: '掃除する/きれいにする' },  // "掃除する"を追加
+{ german: 'raten', english: '助言する/推測する' },  // "推測する"を追加
+{ german: 'rauchen', english: 'たばこを吸う' },  // 修正: "煙草" → "たばこ"
+{ german: 'rechnen', english: '計算する' },
+{ german: 'reden', english: '話す/会話する' },  // "会話する"を追加
+{ german: 'regnen', english: '雨が降る' },
+{ german: 'reichen', english: '足りる/届く' },  // "届く"を追加
+{ german: 'reinigen', english: 'クリーニングする/清掃する' },  // "清掃する"を追加
+{ german: 'reisen', english: '旅行する' },
+{ german: 'reparieren', english: '修理する' },
+{ german: 'reservieren', english: '予約する' },
+{ german: 'retten', english: '救う/救助する' },  // "救助する"を追加
+{ german: 'rufen', english: '呼ぶ/叫ぶ' },  // "叫ぶ"を追加
+{ german: 'sagen', english: '言う' },
+{ german: 'sammeln', english: '集める/収集する' },  // "収集する"を追加
+{ german: 'schaden', english: '害を与える/損害を与える' },  // "損害を与える"を追加
+{ german: 'schaffen', english: '創造する/成し遂げる' },  // "成し遂げる"を修正
+{ german: 'schämen', english: '恥じる/恥ずかしく思う' },  // "恥ずかしく思う"を追加
+{ german: 'schauen', english: '目を向ける/見る' },  // "見る"を追加
+{ german: 'sheinen', english: '輝く/～のように見える' },  // "輝く、～のように見える"の修正
+{ german: 'schenken', english: '贈る/プレゼントする' },  // "プレゼントする"を追加
+{ german: 'schicken', english: '送る' },
+{ german: 'schlafen', english: '寝る/眠る' },  // "眠る"を追加
+{ german: 'schlagen', english: '叩く/打つ' },  // "打つ"を追加
+{ german: 'schließen', english: '閉める/閉じる' },  // "閉じる"を追加
+{ german: 'schmecken', english: 'おいしい/味がする' },  // "おいしい"は感想なので、分けて整理
+{ german: 'schneiden', english: '切る' },
+{ german: 'schneien', english: '雪が降る' },
+{ german: 'schreiben', english: '書く' },
+{ german: 'schweigen', english: '沈黙する/黙る' },  // "黙る"を追加
+{ german: 'schwimmen', english: '泳ぐ' },
+{ german: 'sehen', english: '見る/観る' },  // "観る"を追加
+{ german: 'sein', english: '～である' },
+{ german: 'senden', english: '放送する/送る' },  // "送る"も追加
+{ german: 'setzen', english: '座らせる/座る' },
+{ german: 'singen', english: '歌う' },
+{ german: 'sitzen', english: '座っている' },
+{ german: 'spazieren gehen', english: '散歩する' },
+{ german: 'spielen', english: 'スポーツをする/遊ぶ/楽器を演奏する' },  // "スポーツをする"を修正し分かりやすく
+{ german: 'springen', english: '跳ぶ/飛び跳ねる' },  // "飛び跳ねる"を追加
+{ german: 'spüren', english: '感じる/感知する' },  // "感知する"を追加
+{ german: 'stattfinden', english: '行われる/開催される' },  // "開催される"を追加
+{ german: 'stauen', english: '驚く/びっくりする' },  // "びっくりする"を追加
+{ german: 'stecken', english: '差し込む/挿入する' },  // "差さっている"を修正
+{ german: 'stehen', english: '立っている' },
     // 他の単語を追加
   ];
 
